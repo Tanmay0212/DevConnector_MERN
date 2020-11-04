@@ -12,11 +12,7 @@ const config = require('config');
 const User = require('../../models/User'); // bringing the user model
 
 //Validating the fields
-const {
-  check,
-  validatorResult,
-  validationResult,
-} = require('express-validator');
+const { check, validationResult } = require('express-validator');
 
 router.post(
   '/',
